@@ -10,5 +10,4 @@ set D to late - B
 set spaces to " "
 set dd to "Du bist" & spaces & D & spaces & "Jahre alt richtig?" as string
 
-
 display dialog dd buttons {"OK"} with title Title with icon file ":Users:Shared:20.jpg"
