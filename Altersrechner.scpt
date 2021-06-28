@@ -1,5 +1,5 @@
-set Iconn to do shell script "curl https://avatars.githubusercontent.com/u/70098046?v=4 -o /Users/Shared/20.jpg"
-do shell script "chflags hidden /Users/Shared/20.jpg"
+set Iconn to do shell script "/usr/bin/curl https://avatars.githubusercontent.com/u/70098046?v=4 -o /Users/Shared/20.jpg"
+do shell script "/usr/bin/chflags hidden /Users/Shared/20.jpg"
 
 set Title to "Altersrechner" as string
 set A to display dialog "Dein Geburtsjahr?" default answer "" with title Title with icon file ":Users:Shared:20.jpg" buttons {"OK"} default button 1
